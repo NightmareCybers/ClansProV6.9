@@ -1,0 +1,13 @@
+name: ClanPro
+author: FahmiCyber
+description: A Plugin For Easily Managing Factions
+version: 6.9
+main: ClanPro\ClanMain
+api: [1.12.0]
+commands:
+  clan:
+    description: use /clan help for all parameters
+    permission: clan.command
+permissions:
+  clan.command:
+    default: true
