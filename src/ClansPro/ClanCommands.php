@@ -296,14 +296,14 @@ class ClanCommands {
 					}
 					if(strtolower($args[0]) == "help") {
 						if(!isset($args[1]) || $args[1] == 1) {
-							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 1 of 3" . TextFormat::RED . "\n/f about\n/f accept\n/f claim\n/f create <name>\n/f del\n/f demote <player>\n/f deny");
+							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 1 of 3" . TextFormat::RED . "\n/clan about\n/clan accept\n/clan claim\n/clan create <name>\n/clan del\n/clan demote <player>\n/clan deny");
 							return true;
 						}
 						if($args[1] == 2) {
-							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 2 of 3" . TextFormat::RED . "\n/f home\n/f help <page>\n/f info\n/f info <clan>\n/f invite <player>\n/f kick <player>\n/f leader <player>\n/f leave");
+							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 2 of 3" . TextFormat::RED . "\n/clan home\n/clan help <page>\n/clan info\n/clan info <clan>\n/clan invite <player>\n/clan kick <player>\n/clan leader <player>\n/clan leave");
 							return true;
 						} else {
-							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 3 of 3" . TextFormat::RED . "\n/f motd\n/f promote <player>\n/f sethome\n/f unclaim\n/f unsethome");
+							$sender->sendMessage(TextFormat::BLUE . "ClanPro Help Page 3 of 3" . TextFormat::RED . "\n/clan motd\n/clan promote <player>\n/clan sethome\n/clan unclaim\n/clan unsethome");
 							return true;
 						}
 					}
