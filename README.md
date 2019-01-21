@@ -44,5 +44,5 @@ A Pocketmine Plugin ClansPro . This Language Plugin Is Bahasa Indonesia
 * **/clan unsethome** 
     * unset your Clan's home
 
-#This Is My First Plugin :D
+#Credit: Thanks to Factions Pro
 
